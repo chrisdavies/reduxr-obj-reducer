@@ -2,7 +2,7 @@
 
 import objReducer from '../obj-reducer';
 
-describe('obj-reducer', function () {
+describe('obj-reducer', function () {  
   it('Only invokes methods that match action type', function () {
     const reducer = objReducer({
       one: () => 'uno',
