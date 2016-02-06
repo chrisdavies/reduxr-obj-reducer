@@ -6,7 +6,7 @@ A utility to create Redux reducers from simple objects.
 
 ## Usage
 
-A typical Redux reducer might look like this:
+With idiomatic Redux, a reducer would look something like this:
 
 ```js
 export default function (state, action) {
@@ -21,7 +21,7 @@ export default function (state, action) {
 }
 ```
 
-Obj reducer... well, reduces some of the boilerplate here:
+With `objReducer`, this would produce the same result:
 
 ```js
 import objReducer from 'reduxr-obj-reducer';
@@ -37,7 +37,7 @@ export default objReducer({}, {
 is the default value for the reducer. It's generally a good idea to pass this
 in otherwise, the reducer will produce a default value of `null`.
 
-In this example, there's still some annoyance here in that, really this reducer 
+In this example, there's still some ugliness in that, really this reducer
 is scoped to `user_` actions, so it would be nice to not have to prefix all the
 methods with `user_`. That's where [`reduxr-scoped-reducer`](https://github.com/chrisdavies/reduxr-scoped-reducer) comes in.
 
