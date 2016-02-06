@@ -1,8 +1,8 @@
 {
   "name": "reduxr-obj-reducer",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Creates a Redux reducer out of an object",
-  "main": "ajax.js",
+  "main": "obj-reducer.js",
   "directories": {},
   "scripts": {
     "test": "jasmine test/**/*.spec.js"
