@@ -2,6 +2,8 @@
 
 A utility to create Redux reducers from simple objects.
 
+Part of the [reduxr](https://github.com/chrisdavies/reduxr) family of packages.
+
 [![Build Status](https://travis-ci.org/chrisdavies/reduxr-obj-reducer.svg?branch=master)](https://travis-ci.org/chrisdavies/reduxr-obj-reducer)
 
 ## Usage
