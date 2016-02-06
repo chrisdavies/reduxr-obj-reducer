@@ -1,0 +1,31 @@
+{
+  "name": "reduxr-obj-reducer",
+  "version": "0.0.1",
+  "description": "Creates a Redux reducer out of an object",
+  "main": "ajax.js",
+  "directories": {},
+  "scripts": {
+    "test": "jasmine test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdavies/reduxr-obj-reducer"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "flux",
+    "ajax"
+  ],
+  "author": "Chris Davies <ferociousturtle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdavies/reduxr-obj-reducer/issues"
+  },
+  "homepage": "https://github.com/chrisdavies/reduxr-obj-reducer",
+  "devDependencies": {
+    "deep-freeze": "0.0.1",
+    "faker": "^3.0.1",
+    "jasmine-es6": "0.0.9"
+  }
+}
